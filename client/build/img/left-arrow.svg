@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>left-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="34" cy="34" r="34"></circle>
+        <filter x="-52.2%" y="-49.3%" width="204.4%" height="204.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="11.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0635756341 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="User-Interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Map-Page" transform="translate(-99.000000, -179.000000)">
+            <g id="Feature_1" transform="translate(121.000000, 199.000000)">
+                <g id="left-arrow" transform="translate(34.000000, 34.000000) scale(-1, 1) translate(-34.000000, -34.000000) ">
+                    <g id="Oval-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M38.6337773,24.2923125 L38.6337773,24.2923125 C38.2288783,23.9025625 37.5733773,23.9025625 37.1695133,24.2923125 L28.6065723,32.5558725 C27.7978093,33.3363625 27.7978093,34.6025325 28.6065723,35.3830125 L37.2316463,43.7075425 C37.6324033,44.0932925 38.2796203,44.0982825 38.6855543,43.7175325 L38.6855543,43.7175325 C39.1008093,43.3287925 39.1049513,42.6882125 38.6969453,42.2934725 L30.8029683,34.6764825 C30.3980693,34.2857425 30.3980693,33.6531525 30.8029683,33.2624125 L38.6337773,25.7053825 C39.0386763,25.3156325 39.0386763,24.6830525 38.6337773,24.2923125" id="arrow_left-[#335]" fill="#FF6B6B" fill-rule="nonzero" transform="translate(33.500000, 34.000001) scale(-1, 1) translate(-33.500000, -34.000001) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

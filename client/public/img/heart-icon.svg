@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>heart-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="User-Interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page" transform="translate(-177.000000, -3653.000000)" fill="#EF4141">
+            <g id="Footer" transform="translate(0.000000, 3158.000000)">
+                <g id="Copyrights" transform="translate(61.000000, 493.000000)">
+                    <g id="heart-icon" transform="translate(116.000000, 2.000000)">
+                        <path d="M12.5,0 L6.5,0 C2.91186247,0.00413300952 0.00413300952,2.91186247 0,6.5 C0,9.916 2.65,12.725 6,12.981 L6,15.5 C6,15.689386 6.10700119,15.8625176 6.2763932,15.9472136 C6.44578522,16.0319096 6.64849118,16.0136316 6.8,15.9 L10.5335,13.1 C10.7115,12.9665 10.6965,13 12.5,13 C16.0898509,13 19,10.0898509 19,6.5 C19,2.91014913 16.0898509,3.55271368e-15 12.5,3.55271368e-15 L12.5,0 Z M12.6115,7.4915 L10.35,9.754 C9.88137729,10.2225916 9.12162271,10.2225916 8.653,9.754 L6.3905,7.4915 C5.50593201,6.60533793 5.45124752,5.18805287 6.264904,4.23636654 C7.07856049,3.28468022 8.48712123,3.11841553 9.5,3.8545 C10.5126668,3.11262574 11.9259606,3.27647793 12.7420265,4.23036888 C13.5580924,5.18425982 13.5011921,6.60588189 12.6115,7.4915 L12.6115,7.4915 Z" id="Shape" transform="translate(9.500000, 8.000001) scale(-1, 1) translate(-9.500000, -8.000001) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

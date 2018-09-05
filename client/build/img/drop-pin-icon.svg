@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="51px" viewBox="0 0 29 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>drop-pin-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="User-Interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="50" font-family="FontAwesome" font-weight="normal">
+        <g id="Map-Page" transform="translate(-596.000000, -1059.000000)" fill="#2F313D">
+            <g id="Feature_1" transform="translate(121.000000, 199.000000)">
+                <g id="Description" transform="translate(0.000000, 225.000000)">
+                    <g id="1-copy" transform="translate(308.000000, 570.000000)">
+                        <g id="Content" transform="translate(24.000000, 51.000000)">
+                            <g id="drop-pin-icon" transform="translate(125.000000, 0.000000)">
+                                <text id="">
+                                    <tspan x="18" y="57"></tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

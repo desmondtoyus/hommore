@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="22px" viewBox="0 0 26 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>helper-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="User-Interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Signup-Page-Copy" transform="translate(-192.000000, -484.000000)" fill="#2F313D">
+            <g id="Navbar" transform="translate(124.000000, 44.000000)">
+                <g id="1" transform="translate(0.000000, 168.000000)">
+                    <g id="Content" transform="translate(24.000000, 31.000000)">
+                        <path d="M56.8750149,262.785716 C57.0982295,262.785716 57.321444,262.702011 57.4888549,262.5346 L66.1802715,254.164054 C66.3058297,254.038496 69.3750298,251.234363 69.3750298,247.886145 C69.3750298,243.798529 66.877817,241.357119 62.7064951,241.357119 C60.2650859,241.357119 57.9771368,243.282345 56.8750149,244.370516 C55.7728931,243.282345 53.4849439,241.357119 51.0435347,241.357119 C46.8722128,241.357119 44.375,243.798529 44.375,247.886145 C44.375,251.234363 47.4442001,254.038496 47.5558074,254.136153 L56.2611749,262.5346 C56.4285858,262.702011 56.6518003,262.785716 56.8750149,262.785716 Z" id="helper-icon"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

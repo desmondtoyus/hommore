@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="15px" viewBox="0 0 20 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>google-plus-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M20,6.06770833 L20,7.734375 L18.3333333,7.734375 L18.3333333,9.40104167 L16.6666667,9.40104167 L16.6666667,7.734375 L15,7.734375 L15,6.06770833 L16.6666667,6.06770833 L16.6666667,4.40104167 L18.3333333,4.40104167 L18.3333333,6.06770833 L20,6.06770833 Z M13.772025,6.071425 C14.4665917,10.1218833 11.9564833,14.1666667 7.08333333,14.1666667 C3.16726667,14.1666667 0,10.9994 0,7.08333333 C0,3.16726667 3.16726667,-8.8817842e-16 7.08333333,-8.8817842e-16 C8.99581667,-8.8817842e-16 10.5946333,0.698191667 11.829175,1.8518 L9.90656667,3.70355833 C9.38034167,3.197625 8.459525,2.610725 7.08333333,2.610725 C4.66486667,2.610725 2.69165,4.61430833 2.69165,7.08333333 C2.69165,9.55235833 4.66486667,11.5559417 7.08333333,11.5559417 C9.83124167,11.5559417 10.8908083,9.6258 11.0842417,8.56770833 L7.5,8.56770833 L7.5,6.06770833 L13.772025,6.071425 Z" id="path-1"></path>
+    </defs>
+    <g id="User-Interface" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page" transform="translate(-1308.000000, -3653.000000)">
+            <g id="Footer" transform="translate(0.000000, 3158.000000)">
+                <g id="Social_icons" transform="translate(1162.000000, 492.000000)">
+                    <g id="google-plus-icon" transform="translate(146.000000, 3.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#626883" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

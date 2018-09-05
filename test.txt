@@ -1,0 +1,120 @@
+import React from 'react';
+import axios from "axios";
+var $ = require("jquery");
+
+
+
+class UploadImage extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { file: '', imagePreviewUrl: '', imgUrl:'' };
+    }
+
+    _handleSubmit(e) {
+        e.preventDefault();
+
+        var imgUrl= this.state.imgUrl;
+        console.log(imgUrl);
+        // TODO: do something with -> this.state.file
+        console.log('handle uploading-', this.state.file);
+        return axios.post("/api/image", imgUrl);
+    }
+
+    _handleImageChange(e) {
+        e.preventDefault();
+
+        let reader = new FileReader();
+        let file = e.target.files[0];
+        var imgUrl =this.state.file;// path
+    console.log(file)
+        reader.onloadend = () => {
+            this.setState({
+                file: file,
+                imagePreviewUrl: reader.result,
+                imgUrl: imgUrl
+            });
+        }
+
+     reader.readAsDataURL(file)
+    }
+
+    render() {
+        let { imagePreviewUrl } = this.state;
+        let $imagePreview = null;
+        if (imagePreviewUrl) {
+            $imagePreview = (<img src={imagePreviewUrl} />);
+        } else {
+            $imagePreview = (<div className="previewText">Please select an Image for Preview</div>);
+        }
+
+        return (
+            <div className="previewComponent">
+                <form onSubmit={(e) => this._handleSubmit(e)}>
+                    <input className="fileInput"
+                        type="file"
+                        onChange={(e) => this._handleImageChange(e)} />
+                    <button className="submitButton"
+                        type="submit"
+                        onClick={(e) => this._handleSubmit(e)}>Upload Image</button>
+                </form>
+                <div className="imgPreview">
+                    {$imagePreview}
+                </div>
+            </div>
+        )
+    }
+}
+
+export default UploadImage;
+
+
+
+import React, {Component} from 'react';
+import Dropzone from 'react-dropzone'
+
+
+
+// var Dropzone = require('react-dropzone');
+
+class UploadImage extends React.Component{
+    constructor()
+    {
+        super();
+        this.state ={
+            files: []
+        }
+    }
+
+
+    onDrop=(files)=> {
+        this.setState({
+            files: files
+        });
+        console.log(files);
+    }
+
+    
+
+    onOpenClick=()=> {
+        this.refs.dropzone.open();
+    }
+
+    render () {
+        return (
+            <div>
+                <Dropzone ref="dropzone" onDrop={this.onDrop}>
+                    <div>Try dropping some files here, or click to select files to upload.</div>
+                </Dropzone>
+                <button type="button" onClick={this.onOpenClick}>
+                    Open Dropzone
+                </button>
+                {this.state.files.length > 0 ? <div>
+                    <h2>Uploading {this.state.files.length} files...</h2>
+                    <div>{this.state.files.map((file, i) => <img src={file.preview} key={i} />)}</div>
+                </div> : null}
+            </div>
+        );
+    }
+}
+
+export default UploadImage;
